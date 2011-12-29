@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexref.doc.tar.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The package comprises unofficial reference documentation for
@@ -28,7 +26,6 @@ XeTeX detailing its extended features.
 %doc %{_texmfdistdir}/doc/xetex/xetexref/README
 %doc %{_texmfdistdir}/doc/xetex/xetexref/XeTeX-reference.ltx
 %doc %{_texmfdistdir}/doc/xetex/xetexref/XeTeX-reference.pdf
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,5 +36,3 @@ XeTeX detailing its extended features.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
