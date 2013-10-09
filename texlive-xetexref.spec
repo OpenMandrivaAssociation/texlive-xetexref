@@ -1,12 +1,12 @@
-# revision 20921
+# revision 30636
 # category Package
 # catalog-ctan /info/xetexref
-# catalog-date 2011-01-03 15:37:34 +0100
+# catalog-date 2013-05-21 21:04:45 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-xetexref
-Version:	20110103
-Release:	2
+Version:	20130521
+Release:	1
 Summary:	Reference documentation of XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/xetexref
@@ -18,14 +18,16 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 
 %description
-The package comprises unofficial reference documentation for
-XeTeX detailing its extended features.
+The package comprises reference documentation for XeTeX
+detailing its extended features.
 
 #-----------------------------------------------------------------------
 %files
+%doc %{_texmfdistdir}/doc/xetex/xetexref/Makefile
+%doc %{_texmfdistdir}/doc/xetex/xetexref/Makefile.ini
 %doc %{_texmfdistdir}/doc/xetex/xetexref/README
-%doc %{_texmfdistdir}/doc/xetex/xetexref/XeTeX-reference.ltx
-%doc %{_texmfdistdir}/doc/xetex/xetexref/XeTeX-reference.pdf
+%doc %{_texmfdistdir}/doc/xetex/xetexref/xetex-reference.pdf
+%doc %{_texmfdistdir}/doc/xetex/xetexref/xetex-reference.tex
 
 #-----------------------------------------------------------------------
 %prep
@@ -36,16 +38,3 @@ XeTeX detailing its extended features.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110103-2
-+ Revision: 757645
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110103-1
-+ Revision: 719935
-- texlive-xetexref
-- texlive-xetexref
-- texlive-xetexref
-
