@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-xetexref
 Version:	20130521
-Release:	3
+Release:	4
 Summary:	Reference documentation of XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/xetexref
