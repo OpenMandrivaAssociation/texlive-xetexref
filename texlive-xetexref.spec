@@ -1,12 +1,6 @@
-# revision 30636
-# category Package
-# catalog-ctan /info/xetexref
-# catalog-date 2013-05-21 21:04:45 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-xetexref
-Version:	20130521
-Release:	9
+Version:	20170907
+Release:	1
 Summary:	Reference documentation of XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/xetexref
@@ -23,11 +17,7 @@ detailing its extended features.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/xetex/xetexref/Makefile
-%doc %{_texmfdistdir}/doc/xetex/xetexref/Makefile.ini
-%doc %{_texmfdistdir}/doc/xetex/xetexref/README
-%doc %{_texmfdistdir}/doc/xetex/xetexref/xetex-reference.pdf
-%doc %{_texmfdistdir}/doc/xetex/xetexref/xetex-reference.tex
+%doc %{_texmfdistdir}/doc/xetex/xetexref
 
 #-----------------------------------------------------------------------
 %prep
