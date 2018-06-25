@@ -1,5 +1,5 @@
 Name:		texlive-xetexref
-Version:	20170907
+Version:	20180303
 Release:	1
 Summary:	Reference documentation of XeTeX
 Group:		Publishing
