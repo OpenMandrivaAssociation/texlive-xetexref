@@ -1,6 +1,6 @@
 Name:		texlive-xetexref
 Version:	65972
-Release:	1
+Release:	2
 Summary:	Reference documentation of XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/xetexref
