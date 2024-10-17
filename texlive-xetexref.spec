@@ -3,7 +3,7 @@ Version:	70299
 Release:	1
 Summary:	Reference documentation of XeTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/xetexref
+URL:		https://www.ctan.org/tex-archive/info/xetexref
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexref.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetexref.doc.r%{version}.tar.xz
